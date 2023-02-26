@@ -9,7 +9,8 @@ h2, p {
     font-family: 'Poppins', sans-serif;
 }
 
-/* Updated header class */
+/* styling the header element */
+/* decided to go with the flexbox approach */
 
 header {
     position: relative;
@@ -24,6 +25,7 @@ header {
 
 }
 
+/* setting the media queries for different viewports */
 
 @media only screen and (min-width: 1200px) {
     main {
@@ -109,15 +111,6 @@ header {
     }
 }
 
-.nav-title {
-    display: block;
-    color: #fff;
-    margin-top: 0;
-    padding: 15px;
-    text-align: center;
-    background-color: #2a5195;
-}
-
 .sidebar {
     top: 20;
     position: absolute;
@@ -128,9 +121,13 @@ header {
     transition: .3s;
 }
 
+/* Side-nav class styling to toggle it on and off */
+
 .active {
     left: 0;
 }
+
+/* Styling the side-nav menu*/
 
 ul {
     margin: 0;
@@ -155,6 +152,8 @@ ul li a {
     width: 100%;
     height: 100%;
 } */
+
+/* styling and positioning of the hamburger */
 
 .sidebar-btn {
     padding-top: 10px;
